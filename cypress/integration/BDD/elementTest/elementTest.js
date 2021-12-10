@@ -2,7 +2,7 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 Given("The user visits Inshur Test Website", function () {
-    cy.visit("http://localhost:3000").contains("Cypress Test");
+    cy.visit("http://localhost:3000");
 })
 
 Then("Title should be React App", () => {

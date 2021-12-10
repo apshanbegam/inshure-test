@@ -2,7 +2,7 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 Given("The user visits Inshur Test Home Page URL", function () {
-    cy.visit("http://localhost:3000").contains("Cypress Test");
+    cy.visit("http://localhost:3000");
 })
 
 Then("Verify the user has been redirected to customerlist page automatically", () => {

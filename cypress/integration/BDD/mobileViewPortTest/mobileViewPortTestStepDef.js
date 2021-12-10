@@ -3,7 +3,7 @@ import { Given,When,Then, And } from "cypress-cucumber-preprocessor/steps";
 
 Given("The user visits Inshur Test Website Via Mobile", function(){
     cy.viewport(320, 480); 
-    cy.visit("http://localhost:3000").contains("Cypress Test");
+    cy.visit("http://localhost:3000");
 })
 
 Then("Brand Logo is visible",()=>{

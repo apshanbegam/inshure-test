@@ -3,7 +3,7 @@ import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 let currentUser;
 Given("the user visits Inshur Test Website", function () {
-    cy.visit("http://localhost:3000").contains("Cypress Test");
+    cy.visit("http://localhost:3000");
 })
 
 When("they click the {int} user", (userId) => {
